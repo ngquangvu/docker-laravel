@@ -1,0 +1,7 @@
+version: "2"
+
+syncs:
+    html:
+        notify_terminal: true
+        src: "html"
+        sync_excludes: [".git", ".idea", "node_modules"]
